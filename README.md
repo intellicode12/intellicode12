@@ -2,10 +2,11 @@
   <img src="./header.svg" width="100%" alt="Header">
 </p>
 
-
+# Hi there 👋 I'm Khushi Mokani
+<h1 align="center">Hi 👋, I'm Khushi Mokani</h1>
 
 <h3 align="center">
-Computer Engineering Student • AI Automation Developer • Full Stack Learner
+Computer Engineering Student • AI Automation Learner • Full Stack Learner
 </h3>
 
 ---
@@ -31,7 +32,6 @@ Computer Engineering Student • AI Automation Developer • Full Stack Learner
 ### Frameworks
 - React
 - Node.js
-- Express
 - FastAPI
 
 ### AI
@@ -41,17 +41,19 @@ Computer Engineering Student • AI Automation Developer • Full Stack Learner
 - n8n
 - Azure AI
 
-### Databases
-- MongoDB
-- PostgreSQL
-- MySQL
-
 ### Tools
 - Git
 - GitHub
 - VS Code
 - Docker
 
+### AI Agents
+- AutoGen
+- CrewAI
+- LangGraph
+- Google ADK
+- Microsoft Agent Framework
+  
 ---
 
 ## 🚀 Featured Projects
