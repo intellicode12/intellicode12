@@ -2,7 +2,6 @@
   <img src="./header.svg" width="100%" alt="Header">
 </p>
 
-# Hi there 👋 I'm Khushi Mokani
 <h1 align="center">Hi 👋, I'm Khushi Mokani</h1>
 
 <h3 align="center">
