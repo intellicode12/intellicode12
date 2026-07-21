@@ -1,0 +1,110 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Rainbow Gradient -->
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="16%" stop-color="#ff8800"/>
+      <stop offset="33%" stop-color="#ffee00"/>
+      <stop offset="50%" stop-color="#00ff99"/>
+      <stop offset="66%" stop-color="#00c8ff"/>
+      <stop offset="83%" stop-color="#6a5cff"/>
+      <stop offset="100%" stop-color="#ff00cc"/>
+
+      <animateTransform
+        attributeName="gradientTransform"
+        type="rotate"
+        from="0 500 120"
+        to="360 500 120"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="24" fill="url(#bg)"/>
+
+  <!-- Animated Border -->
+  <rect
+      x="6"
+      y="6"
+      width="988"
+      height="228"
+      rx="20"
+      fill="none"
+      stroke="url(#rainbow)"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-dasharray="180 1200">
+
+      <animate
+          attributeName="stroke-dashoffset"
+          from="1380"
+          to="0"
+          dur="4s"
+          repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Name -->
+  <text
+      x="500"
+      y="100"
+      text-anchor="middle"
+      font-family="Segoe UI, Arial"
+      font-size="42"
+      font-weight="700"
+      fill="#ffffff"
+      filter="url(#glow)">
+
+      KHUSHI MOKANI
+
+      <animate
+          attributeName="opacity"
+          values="0.75;1;0.75"
+          dur="2.5s"
+          repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text
+      x="500"
+      y="150"
+      text-anchor="middle"
+      font-family="Segoe UI, Arial"
+      font-size="20"
+      fill="#cbd5e1">
+
+      🤖 AI Automation Learner • 🧠 AI Agent Builder • 💻 Computer Engineering Student
+
+  </text>
+
+  <!-- Bottom Glow Line -->
+  <line x1="180" y1="185" x2="820" y2="185"
+        stroke="#38bdf8"
+        stroke-width="2">
+
+      <animate
+          attributeName="opacity"
+          values="0.2;1;0.2"
+          dur="2s"
+          repeatCount="indefinite"/>
+  </line>
+
+</svg>
