@@ -52,7 +52,13 @@ Computer Engineering Student • AI Automation Learner • Full Stack Learner
 - LangGraph
 - Google ADK
 - Microsoft Agent Framework
-  
+
+### Developer Tools
+- Git
+- GitHub
+- VS Code
+- Postman
+- Docker
 ---
 
 ## 🚀 Featured Projects
